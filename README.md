@@ -11,7 +11,11 @@ I set the supp_troshold as 0.03*1000 =30 as far as we have 1000 data and the ite
 - Main code start from line 16 by setting the number of items = 16 and set the minimum number for support number = 30.
 - Then in line 19 call the function <b>finding_supp_count</b> to find the total number of support for each level and delete the rows that
 - the support number is less than 30. You see that there is 5 level for total support number (means 5 items together).
+
+
 ![1](https://user-images.githubusercontent.com/92718738/204970712-0cfe9f1d-ade9-4605-b38d-7f676d805e4e.png)
+
+
 - In the 5th level there is 119 transaction consist 5 items. then check all the relation in the 5th level of total support and if the confident >0.7 then save the relation and confident value in a table
 - Next change the ‘i1’ to ‘i16’ to the real name of the item then save them as format that asked in exam and saved in the file.
 ### Functions: 
