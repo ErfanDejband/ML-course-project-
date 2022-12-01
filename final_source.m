@@ -9,7 +9,7 @@ opts.EmptyLineRule = "read";
 opts = setvaropts(opts, ["Var1", "Var2", "Var3", "Var4", "Var5", "Var6", "Var7", "Var8", "Var9", "Var10", "Var11", "Var12", "Var13", "Var14", "Var15", "Var16", "Var17", "item1"], "WhitespaceRule", "preserve");
 opts = setvaropts(opts, ["Var1", "Var2", "Var3", "Var4", "Var5", "Var6", "Var7", "Var8", "Var9", "Var10", "Var11", "Var12", "Var13", "Var14", "Var15", "Var16", "Var17", "item1"], "EmptyFieldRule", "auto");
 % Import the data
-tbl = readtable("G:\My Drive\Machin learning\ML COD PRACTICE\hoome work 1 (buying items and supp)\apriori_train_pre_prossesed.csv", opts);
+tbl = readtable("INSERT THE PATH THAT YOU SAVE THE (apriori_train_pre_prossesed.csv) FILE ", opts); %ie. G:\My Drive\Machin learning\ML (buying items and supp)\apriori_train_pre_prossesed.csv
 item = tbl.item1;
 clear opts tbl
 
