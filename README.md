@@ -16,8 +16,10 @@ I set the supp_troshold as 0.03*1000 =30 as far as we have 1000 data and the ite
 - Next change the ‘i1’ to ‘i16’ to the real name of the item then save them as format that asked in exam and saved in the file.
 ### Functions: 
 ![image](https://user-images.githubusercontent.com/92718738/204971863-7e8c2442-0f96-49c0-9702-3b1691baabdc.png)
+
 1- **finding_supp_count function:** 
 this function get (**item** ,**number_of_items** ,**minimum_supp_troshold**) and as a result give the **total_supp** and **all_item**. 
+
 ![image](https://user-images.githubusercontent.com/92718738/204972271-f7d6132c-e358-47a7-a5f9-dfc42183409f.png)
 
 it is 1by5 cell in each column there is number of support for items. For example in the last one that we are interesting on that
