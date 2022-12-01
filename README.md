@@ -5,7 +5,7 @@ Apple = ‘i1’ and chocolate = ‘i16’ Because working with them is easier (
 
 **You need too save final_source.m file and apriori_train_pre_prossesed.csv file in same directory then "INSERT THE PATH OF YOUR DIRECTORY " in line 12 of the code after runnning the code you can fine priori_result.csv file in directory**
 ```diff
-- running this code take time. you can remove some items and some transactions to reduce tyhe time (remmeber to change item_number = 16  too)
+- running this code take time. you can remove some items and some transactions as well to reduce the time (remmeber to change item_number = 16  too)
 ```
 
 ## Code explanation:
