@@ -3,6 +3,11 @@ Before everything I do pre-processing in the excel file itself (it is possible t
 the file as following:
 Apple = ‘i1’ and chocolate = ‘i16’ Because working with them is easier (compare files apriori_train.csv and apriori_train_pre_prossesed.csv)
 
+**You need too save final_source.m file and apriori_train_pre_prossesed.csv file in same directory then "INSERT THE PATH OF YOUR DIRECTORY " in line 12 of the code after runnning the code you can fine priori_result.csv file in directory**
+```diff
+- running this code take time. you can remove some items and some transactions to reduce tyhe time (remmeber to change item_number = 16  too)
+```
+
 ## Code explanation:
 just import the last column to the MATLAB as the following code line from 1 to 14.
 I set the supp_troshold as 0.03*1000 =30 as far as we have 1000 data and the item_number = 16 as far as we have 16 items.
